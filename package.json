@@ -36,12 +36,12 @@
     "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.6",
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
     "babel-plugin-inline-import": "^3.0.0",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "chrome-launcher": "^0.10.7",
