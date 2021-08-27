@@ -1,4 +1,4 @@
-import { setTimeout } from 'core-js/library/web/timers'
+import { setTimeout } from 'core-js/web/timers'
 
 // setZeroTimeout slightly adapted from
 // https://github.com/shahyar/setZeroTimeout-js (CC BY 3.0).
