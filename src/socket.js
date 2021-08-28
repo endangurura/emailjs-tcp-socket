@@ -20,6 +20,6 @@ if (typeof process !== 'undefined') {
 }
 */
 
-TCPSocket = require('./socketio-socket')
+TCPSocket = require('./windows-socket')
 
 module.exports = TCPSocket
