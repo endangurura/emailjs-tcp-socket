@@ -20,14 +20,6 @@ if (typeof process !== 'undefined') {
 }
 */
 
-if (typeof chrome !== 'undefined' && (chrome.socket || chrome.sockets)) {
-  TCPSocket = require('./chrome-socket')
-} else if (typeof Windows === 'object' && Windows && Windows.Networking && Windows.Networking.Sockets && Windows.Networking.Sockets.StreamSocket) {
-  TCPSocket = require('./windows-socket')
-} else if (typeof window === 'object' && typeof io === 'function') {
-  TCPSocket = require('./socketio-socket')
-} else {
-  TCPSocket = DummySocket
-}
+TCPSocket = require('./socketio-socket')
 
 module.exports = TCPSocket
